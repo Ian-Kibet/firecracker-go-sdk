@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
-	"github.com/firecracker-microvm/firecracker-go-sdk/fctesting"
+	models "github.com/Ian-Kibet/firecracker-go-sdk/client/models"
+	"github.com/Ian-Kibet/firecracker-go-sdk/fctesting"
 )
 
 func TestClient(t *testing.T) {

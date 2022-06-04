@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/firecracker-microvm/firecracker-go-sdk/client/operations"
+	"github.com/Ian-Kibet/firecracker-go-sdk/client/operations"
 	"github.com/go-openapi/runtime"
 	"github.com/stretchr/testify/assert"
 )

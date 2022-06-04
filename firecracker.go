@@ -21,9 +21,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/firecracker-microvm/firecracker-go-sdk/client"
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
-	ops "github.com/firecracker-microvm/firecracker-go-sdk/client/operations"
+	"github.com/Ian-Kibet/firecracker-go-sdk/client"
+	models "github.com/Ian-Kibet/firecracker-go-sdk/client/models"
+	ops "github.com/Ian-Kibet/firecracker-go-sdk/client/operations"
 )
 
 const (

@@ -30,7 +30,7 @@ firecracker_version=v1.0.0
 arch=$(shell uname -m)
 
 # The below files are needed and can be downloaded from the internet
-release_url=https://github.com/firecracker-microvm/firecracker/releases/download/$(firecracker_version)/firecracker-$(firecracker_version)-$(arch).tgz
+release_url=https://github.com/Ian-Kibet/firecracker/releases/download/$(firecracker_version)/firecracker-$(firecracker_version)-$(arch).tgz
 
 testdata_objects = \
 $(FC_TEST_DATA_PATH)/vmlinux \
@@ -86,7 +86,7 @@ $(FC_TEST_DATA_PATH)/ltag:
 	go get github.com/kunalkushwaha/ltag
 
 $(FIRECRACKER_DIR):
-	- git clone https://github.com/firecracker-microvm/firecracker.git $(FIRECRACKER_DIR)
+	- git clone https://github.com/Ian-Kibet/firecracker.git $(FIRECRACKER_DIR)
 
 .PHONY: test-images
 test-images: $(FIRECRACKER_BIN) $(JAILER_BIN)

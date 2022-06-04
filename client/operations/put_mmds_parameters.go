@@ -29,7 +29,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
+	models "github.com/Ian-Kibet/firecracker-go-sdk/client/models"
 )
 
 // NewPutMmdsParams creates a new PutMmdsParams object

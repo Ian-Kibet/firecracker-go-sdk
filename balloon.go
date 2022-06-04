@@ -13,7 +13,7 @@
 package firecracker
 
 import (
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
+	models "github.com/Ian-Kibet/firecracker-go-sdk/client/models"
 )
 
 // BalloonDevice is a builder that will create a balloon used to set up
