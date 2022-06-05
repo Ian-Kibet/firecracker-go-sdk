@@ -26,7 +26,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
+	models "titan/lib/firecracker/client/models"
 )
 
 // PutBalloonReader is a Reader for the PutBalloon structure.

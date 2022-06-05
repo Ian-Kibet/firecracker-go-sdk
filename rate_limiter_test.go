@@ -17,8 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/firecracker-microvm/firecracker-go-sdk"
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
+	"titan/lib/firecracker"
+	models "titan/lib/firecracker/client/models"
+
 	"github.com/stretchr/testify/assert"
 )
 

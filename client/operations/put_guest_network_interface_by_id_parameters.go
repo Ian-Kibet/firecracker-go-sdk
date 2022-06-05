@@ -29,7 +29,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
+	models "titan/lib/firecracker/client/models"
 )
 
 // NewPutGuestNetworkInterfaceByIDParams creates a new PutGuestNetworkInterfaceByIDParams object

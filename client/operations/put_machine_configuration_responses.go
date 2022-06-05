@@ -26,7 +26,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
+	models "titan/lib/firecracker/client/models"
 )
 
 // PutMachineConfigurationReader is a Reader for the PutMachineConfiguration structure.

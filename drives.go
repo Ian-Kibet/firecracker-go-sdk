@@ -15,7 +15,7 @@ package firecracker
 import (
 	"strconv"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
+	models "titan/lib/firecracker/client/models"
 )
 
 const rootDriveName = "root_drive"

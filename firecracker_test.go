@@ -18,8 +18,9 @@ import (
 	"testing"
 	"time"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
-	"github.com/firecracker-microvm/firecracker-go-sdk/fctesting"
+	"titan/lib/firecracker/fctesting"
+
+	models "titan/lib/firecracker/client/models"
 )
 
 func TestClient(t *testing.T) {

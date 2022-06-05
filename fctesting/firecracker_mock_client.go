@@ -16,7 +16,7 @@
 package fctesting
 
 import (
-	ops "github.com/firecracker-microvm/firecracker-go-sdk/client/operations"
+	ops "titan/lib/firecracker/client/operations"
 )
 
 type MockClient struct {

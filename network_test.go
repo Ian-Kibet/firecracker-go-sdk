@@ -24,9 +24,10 @@ import (
 	"testing"
 	"time"
 
+	models "titan/lib/firecracker/client/models"
+	"titan/lib/firecracker/fctesting"
+
 	"github.com/containernetworking/cni/libcni"
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
-	"github.com/firecracker-microvm/firecracker-go-sdk/fctesting"
 	"github.com/go-ping/ping"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

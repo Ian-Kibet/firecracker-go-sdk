@@ -24,7 +24,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	models "github.com/firecracker-microvm/firecracker-go-sdk/client/models"
+	models "titan/lib/firecracker/client/models"
 )
 
 const numberOfVMs = 200
