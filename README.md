@@ -1,8 +1,13 @@
 A basic Go interface to the Firecracker API
 ====
 
+<<<<<<< HEAD
 [![Build status](https://badge.buildkite.com/de08ca676829bedbf6de040c2c2ba1a5d2892e220997c2abdd.svg?branch=main)](https://buildkite.com/firecracker-microvm/firecracker-go-sdk)
 [![GoDoc](https://godoc.org/titan/lib/firecracker?status.svg)](https://godoc.org/titan/lib/firecracker)
+=======
+[![Build status](https://badge.buildkite.com/de08ca676829bedbf6de040c2c2ba1a5d2892e220997c2abdd.svg?branch=main)](https://buildkite.com/Ian-Kibet/firecracker-go-sdk)
+[![GoDoc](https://godoc.org/github.com/Ian-Kibet/firecracker-go-sdk?status.svg)](https://godoc.org/github.com/Ian-Kibet/firecracker-go-sdk)
+>>>>>>> b8aa219df3977843c18fb0ce7af8af072b1bf0b8
 
 This package is a Go library to interact with the Firecracker API. It
 is designed as an abstraction of the OpenAPI-generated client that
@@ -10,7 +15,11 @@ allows for convenient manipulation of Firecracker VM from Go programs.
 
 There are some Firecracker features that are not yet supported by the
 SDK.  These are tracked as GitHub issues with the
+<<<<<<< HEAD
 [firecracker-feature](https://titan/lib/firecracker/issues?q=is%3Aissue+is%3Aopen+label%3Afirecracker-feature)
+=======
+[firecracker-feature](https://github.com/Ian-Kibet/firecracker-go-sdk/issues?q=is%3Aissue+is%3Aopen+label%3Afirecracker-feature)
+>>>>>>> b8aa219df3977843c18fb0ce7af8af072b1bf0b8
 label . Contributions to address missing features are welcomed.
 
 Developing
@@ -28,7 +37,7 @@ additional flags to the Go compiler via the `EXTRAGOARGS` make variable.
 Tools
 ---
 
-There's a [firectl](https://github.com/firecracker-microvm/firectl/)
+There's a [firectl](https://github.com/Ian-Kibet/firectl/)
 tool that provides a simple command-line interface to launching a
 firecracker VM. It also serves as an example client of this SDK.
 
@@ -154,16 +163,20 @@ Questions?
 ---
 
 Please use
+<<<<<<< HEAD
 [GitHub issues](https://titan/lib/firecracker/issues)
+=======
+[GitHub issues](https://github.com/Ian-Kibet/firecracker-go-sdk/issues)
+>>>>>>> b8aa219df3977843c18fb0ce7af8af072b1bf0b8
 to report problems, discuss roadmap items, or make feature requests.
 
 If you've discovered an issue that may have security implications to
 users or developers of this software, please do not report it using
 GitHub issues, but instead follow
-[Firecracker's security reporting guidelines](https://github.com/firecracker-microvm/firecracker/blob/main/SECURITY.md).
+[Firecracker's security reporting guidelines](https://github.com/Ian-Kibet/firecracker/blob/main/SECURITY.md).
 
 Other discussion: For general discussion, please join us in the
-`#general` channel on the [Firecracker Slack](https://join.slack.com/t/firecracker-microvm/shared_invite/zt-oxbm7tqt-GLlze9zZ7sdRSDY6OnXXHg).
+`#general` channel on the [Firecracker Slack](https://join.slack.com/t/Ian-Kibet/shared_invite/zt-oxbm7tqt-GLlze9zZ7sdRSDY6OnXXHg).
 
 License
 ====

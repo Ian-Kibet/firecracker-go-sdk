@@ -1,5 +1,5 @@
 # 0.22.0
-* Since firecracker-microvm/firecracker#2125, `cargo build` doesn't build jailer by default. (#263)
+* Since Ian-Kibet/firecracker#2125, `cargo build` doesn't build jailer by default. (#263)
 * Fix Benchmark Goroutine (#259)
 * Jailer configuration API cleanup and improved logging with Debug log level (#255)
 * Firecracker is internally has an instance ID, but the SDK didn't have the way to configure the ID. This change connects Config.VMID to the instance ID. (#253)

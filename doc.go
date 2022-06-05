@@ -16,13 +16,17 @@ Package firecracker provides a library to interact with the Firecracker API.
 
 Firecracker is an open-source virtualization technology that is purpose-built
 for creating and managing secure, multi-tenant containers and functions-based
-services.  See https://firecracker-microvm.github.io/ for more details.
+services.  See https://Ian-Kibet.github.io/ for more details.
 
 This library requires Go 1.11 and can be used with Go modules.
 
 BUG(aws): There are some Firecracker features that are not yet supported by the
 SDK.  These are tracked as GitHub issues with the firecracker-feature label:
+<<<<<<< HEAD
 https://titan/lib/firecracker/issues?q=is%3Aissue+is%3Aopen+label%3Afirecracker-feature
+=======
+https://github.com/Ian-Kibet/firecracker-go-sdk/issues?q=is%3Aissue+is%3Aopen+label%3Afirecracker-feature
+>>>>>>> b8aa219df3977843c18fb0ce7af8af072b1bf0b8
 
 This library is licensed under the Apache 2.0 License.
 */
